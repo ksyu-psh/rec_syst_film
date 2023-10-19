@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+environs = "*"
+celery = {extras = ["redis"], version = "*"}
+colorama = "*"
+flower = "*"
+aiogram = "*"
+torch = "*"
+transformers = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
